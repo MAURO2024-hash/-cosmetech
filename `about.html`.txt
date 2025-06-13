@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À Propos - COSMETECH INNOVATION</title>
+  <meta name="description" content="Découvrez l'histoire, la mission et les valeurs de COSMETECH INNOVATION, votre partenaire technologique en République Centrafricaine.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .page-header {
+      background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    
+    .mission-vision {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+    
+    .mission-card, .vision-card {
+      padding: 30px;
+      border-radius: 8px;
+    }
+    
+    .mission-card {
+      background: linear-gradient(to bottom right, #e8f5e9, #c8e6c9);
+    }
+    
+    .vision-card {
+      background: linear-gradient(to bottom right, #e3f2fd, #bbdefb);
+    }
+    
+    .history-section {
+      background-color: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      margin-bottom: 60px;
+    }
+    
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+    
+    .value-card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+    
+    .value-card i {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    
+    .team-section {
+      text-align: center;
+    }
+    
+    .team-cta {
+      background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 40px;
+      border-radius: 8px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    @media (max-width: 768px) {
+      .mission-vision {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="COSMETECH INNOVATION" width="40" height="40">
+        <span>COSMETECH INNOVATION</span>
+      </div>
+      <nav>
+        <button id="menu-toggle" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul id="nav-menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Nos Services</a></li>
+          <li><a href="about.html">À Propos</a></li>
+          <li><a href="formations.html">Formations</a></li>
+          <li><a href="cosmeclean.html">COSMECLEAN</a></li>
+          <li><a href="boutique.html">Boutique</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Page Content -->
+  <section class="page-header">
+    <div class="container">
+      <h1>À Propos de COSMETECH INNOVATION</h1>
+      <p>Découvrez notre histoire, notre mission et les valeurs qui nous guident dans notre engagement envers l'excellence technologique en République Centrafricaine.</p>
+    </div>
+  </section>
+
+  <section class="about-content">
+    <div class="container">
+      <!-- Mission & Vision -->
+      <div class="mission-vision">
+        <div class="mission-card">
+          <h2>Notre Mission</h2>
+          <p>Démocratiser l'accès aux technologies et aux formations de qualité en République Centrafricaine. Nous nous engageons à accompagner les entreprises et les particuliers dans leur transformation digitale tout en respectant l'environnement grâce à nos solutions écologiques.</p>
+        </div>
+        
+        <div class="vision-card">
+          <h2>Notre Vision</h2>
+          <p>Devenir le leader technologique de référence en République Centrafricaine, reconnu pour l'innovation, la qualité de nos services et notre engagement envers le développement durable et l'éducation numérique.</p>
+        </div>
+      </div>
+      
+      <!-- Notre Histoire -->
+      <h2 style="text-align: center; margin-bottom: 30px;">Notre Histoire</h2>
+      <div class="history-section">
+        <p>Fondée en République Centrafricaine, COSMETECH INNOVATION est née de la vision de démocratiser l'accès aux technologies et aux formations de qualité dans notre région. Nos fondateurs, passionnés de technologie et d'éducation, ont identifié un besoin crucial d'accompagnement dans la transformation digitale des entreprises locales.</p>
+        <br>
+        <p>Depuis nos débuts, nous avons élargi notre gamme de services pour inclure non seulement les formations en ligne et le développement web, mais aussi des solutions innovantes comme COSMECLEAN, notre service de nettoyage écologique, et une boutique de compléments alimentaires de qualité.</p>
+        <br>
+        <p>Aujourd'hui, nous sommes fiers d'avoir accompagné plus de 500 clients dans leurs projets e
