@@ -148,6 +148,34 @@
         <!-- Contact Information -->
         <div class="contact-info">
           <h2>Nos coordonnées</h2>
+          import React from 'react';
+import Contact from './components/Contact';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <header className="bg-white shadow-md">
+        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+          <h1 className="text-2xl font-bold text-green-600">COSMETECH INNOVATION</h1>
+        </div>
+      </header>
+
+      <main>
+        <section className="py-12">
+          <Contact />
+        </section>
+      </main>
+
+      <footer className="bg-green-600 text-white py-6">
+        <div className="container mx-auto px-6 text-center">
+          <p>&copy; {new Date().getFullYear()} COSMETECH INNOVATION. Tous droits réservés.</p>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
           
           <div class="contact-info-item">
             <i class="fas fa-map-marker-alt"></i>
